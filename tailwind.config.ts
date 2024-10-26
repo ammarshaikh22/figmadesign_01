@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        dmSans: ["var(--font-dm-sans)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
