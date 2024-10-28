@@ -22,9 +22,9 @@ const Info = () => {
         <div className='flex justify-between items-center mt-20 md:flex-row flex-col'>
           <div className='relative'>
             <h6 className='text-[32px] md:max-w-[60%]'>I am thrilled to answer to your next project</h6>
-            <Image src='/icon.png' alt='icon' width={20} height={10} className='md:-rotate-90 absolute right-[10px] top-[66px]' />
+            <Image src='/icon.png' alt='icon' width={20} height={10} className='md:-rotate-90 absolute md:right-[310px] md:top-[66px] right-[10px] top-[66px]' />
           </div>
-          <div className='md:mt-0 mt-6'> 
+          <div className='md:mt-0 mt-6'>
             <p className='md:text-[32px] text-2xl'>ammarshaikh50099@gmail.com</p>
             <span className='text-[14px]'>View Resume</span>
           </div>

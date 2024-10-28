@@ -38,16 +38,16 @@ const Header = () => {
                     <nav className={`md:hidden block fixed z-10 w-[80%] top-0 right-0 h-screen bg-[#dfdfdf] transform transition-transform duration-300  ${menu ? 'translate-x-0' : 'translate-x-full'}`}>
                         {menu ?
                             <ul className='flex flex-col gap-12 justify-center items-center h-full text-xl'>
-                                <Link href='/'>
+                                <Link href='/' onClick={() => setMenu(!menu)}>
                                     <li>Work</li>
                                 </Link>
-                                <Link href='/about'>
+                                <Link href='/about' onClick={() => setMenu(!menu)}>
                                     <li>About</li>
                                 </Link>
-                                <Link href='/'>
+                                <Link href='/' onClick={() => setMenu(!menu)}>
                                     <li>Playground</li>
                                 </Link>
-                                <Link href='/contact'>
+                                <Link href='/' onClick={() => setMenu(!menu)}>
                                     <li>Contact</li>
                                 </Link>
                             </ul> : null}
